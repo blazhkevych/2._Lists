@@ -1,37 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
-      ol {
-        background-color: #ed9eae;
-        list-style-type: decimal;
-        color: white;
-        padding: 1em;
-        line-height: 2em;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        padding-left: 2em;
-      }
-			
-      li {
-        background-color: #c66376;
-        margin-bottom: 0.5em; 
-      }
-    </style>
-		
-  </head>
-  <body>
-    <ol>
-      <li>
-				Apple
-			</li>
-      <li>Orange</li>
-      <li>Pineapple</li>
-      <li>Pear</li>
-      <li>Cherry</li>
-    </ol>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    ol {
+      background-color: #ed9eae;
+      list-style-position: inside;
+      list-style-type: decimal;
+      color: white;
+      padding: 10px;
+      line-height: 1em;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      border: 20px solid #f5f5f5;
+    }
+
+    li {
+      background-color: #C46575;
+      margin-bottom: 5px;
+      overflow: hidden;
+      padding: 0 1rem;
+    }
+
+    li>div {
+      background: #9F394F;
+      padding: 10px;
+      display: inline-block;
+    }
+
+    li+li {
+      margin-top: .5rem;
+    }
+  </style>
+</head>
+
+<body>
+  <ol>
+    <li>
+      <div>Apple</div>
+    </li>
+    <li>
+      <div>Orange</div>
+    </li>
+    <li>
+      <div>Pineapple</div>
+    </li>
+    <li>
+      <div>Pear</div>
+    </li>
+    <li>
+      <div>Cherry</div>
+    </li>
+  </ol>
+</body>
+
 </html>
