@@ -22,12 +22,15 @@
 
 ## Задание 4
 list1
+
 ![list1](https://user-images.githubusercontent.com/65856963/230717554-914c7c21-645d-4cc9-9454-724f18fbaf6e.gif)
 
 ## Задание 5
 list2
+
 ![image](https://user-images.githubusercontent.com/65856963/230717596-ef025c71-90c5-4d67-899b-b768d66b6062.png)
 
 ## Задание 6
 Список определений
+
 ![image](https://user-images.githubusercontent.com/65856963/230717631-e43f65ee-8816-4777-910c-84ac14f9ea00.png)
